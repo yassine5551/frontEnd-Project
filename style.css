@@ -14,6 +14,8 @@ body{
     background-color: rgb(238, 255, 255);
     width: 100%;
     height: 35px;
+    
+    
 }
 
 .nav-bar ul{
@@ -21,6 +23,7 @@ body{
     justify-content: end;
     gap: 1.5rem;
     margin-right: 100px;
+    
 }
 
 a,li{
@@ -31,4 +34,14 @@ a,li{
 img{
     width: 100%;
     height: 60%;
+}
+
+.box{
+    position:absolute;
+    background-color: rgba(238, 77, 8, 0.907);
+    width: 3%;
+    height: 6%;
+    top: 18px;
+    left:15%;
+    
 }
