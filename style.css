@@ -14,6 +14,8 @@ body{
     background-color: rgb(238, 255, 255);
     width: 100%;
     height: 35px;
+    padding-top: 10px;
+    margin-bottom: 10px;
     
     
 }
@@ -22,7 +24,10 @@ body{
     display: flex;
     justify-content: end;
     gap: 1.5rem;
-    margin-right: 100px;
+    margin-right: 200px;
+    
+    
+
     
 }
 
@@ -38,10 +43,41 @@ img{
 
 .box{
     position:absolute;
-    background-color: rgba(238, 77, 8, 0.907);
+    background-color: rgb(238, 77, 8);
     width: 3%;
-    height: 6%;
+    height: 7%;
     top: 18px;
     left:15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.main{
+    position: relative;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    color: white;
     
+}
+.job{
+    
+    position: absolute;
+    left: 25%;;
+    border: 2px solid rgb(133, 133, 133);
+    width: 163px;
+    padding: 13px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: gray;
+    margin-top: 8px;
+}
+#name{
+    color: rgb(180, 195, 209);
 }
